@@ -208,3 +208,4 @@ if run_btn:
             "mean_utilization": "Средняя загруженность серверов"
         }))
     st.download_button("Скачать результаты (CSV)", df.to_csv(index=False), file_name="exp_rate_limit_results.csv")
+
